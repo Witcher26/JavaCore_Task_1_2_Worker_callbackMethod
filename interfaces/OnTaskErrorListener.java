@@ -1,4 +1,6 @@
+package interfaces;
+
 @FunctionalInterface
 public interface OnTaskErrorListener {
-    void onError(String err);
+    public void onError(String err);
 }

@@ -1,4 +1,6 @@
+package interfaces;
+
 @FunctionalInterface
 public interface OnTaskDoneListener {
-    void onDone(String tmp);
+    public void onDone(String tmp);
 }

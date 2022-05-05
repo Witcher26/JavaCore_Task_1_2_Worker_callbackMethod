@@ -1,3 +1,8 @@
+package interfaces.classes;
+
+import interfaces.OnTaskDoneListener;
+import interfaces.OnTaskErrorListener;
+
 public class Worker {
     private OnTaskDoneListener callback;
     private OnTaskErrorListener errorCallback;
